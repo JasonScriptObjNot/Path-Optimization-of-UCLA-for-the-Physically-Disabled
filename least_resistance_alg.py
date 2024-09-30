@@ -1,3 +1,4 @@
+# given indices of start and end nodes, find the time (total weight) & route (nodes visited) of the fastest path 
 def least_resistance(start, end, d = 0):
   # breaks if already at the end
   if start == end:
